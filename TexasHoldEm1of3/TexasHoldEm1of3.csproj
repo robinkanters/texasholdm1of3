@@ -55,7 +55,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TexasHoldEm1of3Interfaces\TexasHoldEm1of3.Interfaces.csproj">
+    <ProjectReference Include="..\TexasHoldEm1of3.Interfaces\TexasHoldEm1of3.Interfaces.csproj">
       <Project>{7d3556ea-5cf9-4e23-987a-d13b215c17bd}</Project>
       <Name>TexasHoldEm1of3.Interfaces</Name>
     </ProjectReference>
