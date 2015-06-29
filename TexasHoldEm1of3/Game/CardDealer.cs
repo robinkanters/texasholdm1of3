@@ -3,6 +3,7 @@
     using Interfaces;
     using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class CardDealer : ICardDealer
     {
@@ -60,7 +61,8 @@
                     NextRandom<Rank>()
                 );
 
-                if (DealtCards.Contains(card)) continue;
+                if (DealtCards.Count(c => c.Rank == card.Rank && c.Suit == card.Suit) > 0)
+                    continue;
 
                 DealtCards.Add(card);
                 break;
