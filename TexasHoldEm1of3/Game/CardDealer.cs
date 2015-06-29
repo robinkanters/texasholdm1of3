@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace TexasHoldEm1of3.Game
+﻿namespace TexasHoldEm1of3.Game
 {
     using Interfaces;
+    using System;
+    using System.Collections.Generic;
 
     public class CardDealer : ICardDealer
     {
