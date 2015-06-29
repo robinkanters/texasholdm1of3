@@ -1,10 +1,9 @@
-﻿using System;
-
 namespace TexasHoldEm1of3
 {
     using Game;
     using Interfaces;
     using Player;
+    using System;
 
     class Program
     {
