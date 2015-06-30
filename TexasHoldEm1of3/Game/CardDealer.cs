@@ -60,7 +60,8 @@
                     NextRandom<Suit>(),
                     NextRandom<Rank>()
                 );
-
+                
+                // TODO Change Count() to Any()
                 if (DealtCards.Count(c => c.Rank == card.Rank && c.Suit == card.Suit) > 0)
                     continue;
 
